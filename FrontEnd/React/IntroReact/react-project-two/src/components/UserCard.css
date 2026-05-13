@@ -1,0 +1,14 @@
+#user-profile{
+    height: 300px;
+    border-radius: 15px;
+}
+
+#user-title,#user-name{
+    text-align: center;
+}
+
+.user-container{
+    background-color: rgb(83, 42, 42);
+    border-radius: 15px;
+    padding: 20px;
+}
