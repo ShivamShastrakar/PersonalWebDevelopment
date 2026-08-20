@@ -1,0 +1,1 @@
+ALTER TABLE acadamic_experience ADD chapters varchar(255);

@@ -1,0 +1,57 @@
+2025-12-30 19:30:21.495 [http-nio-28080-exec-2] INFO  com.mahaexam.packagemanagment.service.payment.PaymentLinkService
+- Razor Pay paymentResponse: {"cancelled_at":0,"reminders":[],"amount_paid":0,"notes":null,"reference_id":"RINV767103220870","payments":null,"created_at":1767103221,
+"description":"Payment for : ","expired_at":0,"notify":{"whatsapp":false,"sms":true,"email":true},"short_url":"https://rzp.io/rzp/amovB9G",
+"callback_url":"http://3.110.16.23/MahaExam/assets/paymentSuccess.html","updated_at":1767103221,"upi_link":false,"accept_partial":false,"currency":"INR",
+"id":"plink_RxqeOWUUdOg4uG","callback_method":"get","expire_by":0,"first_min_partial_amount":0,"whatsapp_link":false,"amount":560000,
+"reminder_enable":false,"user_id":"","customer":{"contact":"9890960762","name":"NARENDRA CHOUHAN","email":"narendra.chouhan@gmail.com"},"status":"created"},
+ paymentLinkId: plink_RxqeOWUUdOg4uG
+
+2025-12-30 19:30:46.930 [http-nio-28080-exec-7] INFO  com.mahaexam.packagemanagment.controller.payment.RazorpayWebhookController - Webhook signature verified successfully
+2025-12-30 19:30:46.931 [http-nio-28080-exec-7] INFO  com.mahaexam.packagemanagment.controller.payment.RazorpayWebhookController - payloadObj ===>
+{"payment": {"entity": {
+  "notes": [],
+  "fee": null,
+  "description": "#RxqeOWUUdOg4uG",
+  "created_at": 1767103242,
+  "amount_refunded": 0,
+  "bank": null,
+  "error_reason": "payment_failed",
+  "error_description": "Payment failed",
+  "acquirer_data": {"auth_code": null},
+  "captured": false,
+  "contact": "+919921399990",
+  "invoice_id": null,
+  "currency": "INR",
+  "id": "pay_RxqekFPHyBNblG",
+  "international": false,
+  "email": "void@razorpay.com",
+  "reward": null,
+  "amount": 560000,
+  "refund_status": null,
+  "wallet": null,
+  "method": "card",
+  "vpa": null,
+  "error_source": "gateway",
+  "error_step": "payment_authorization",
+  "tax": null,
+  "card_id": "card_RxqekVNvhiPjTw",
+  "error_code": "BAD_REQUEST_ERROR",
+  "order_id": "order_RxqeR6FFYyOJOx",
+  "entity": "payment",
+  "card": {
+    "emi": true,
+    "last4": "8228",
+    "sub_type": "business",
+    "name": "",
+    "id": "card_RxqekVNvhiPjTw",
+    "token_iin": null,
+    "type": "credit",
+    "international": false,
+    "entity": "card",
+    "issuer": "HDFC",
+    "network": "MasterCard"
+  },
+  "status": "failed"
+}}}
+2025-12-30 19:30:46.931 [http-nio-28080-exec-7] INFO  com.mahaexam.packagemanagment.controller.payment.RazorpayWebhookController - Payment Failed event - referenceId: null, paymentId: pay_RxqekFPHyBNblG, orderId: order_RxqeR6FFYyOJOx, amount: 560000, status: failed
+2025-12-30 19:30:46.932 [http-nio-28080-exec-7] WARN  com.mahaexam.packagemanagment.controller.payment.RazorpayWebhookController - Could not determine referenceId for payment.failed webhook; skipping processing

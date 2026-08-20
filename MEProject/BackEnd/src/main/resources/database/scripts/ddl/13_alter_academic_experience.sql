@@ -1,0 +1,1 @@
+ALTER TABLE acadamic_experience DROP COLUMN chapter_id;

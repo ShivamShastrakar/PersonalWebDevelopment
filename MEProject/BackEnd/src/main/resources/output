@@ -1,0 +1,173 @@
+[
+  {
+    "description": "What is the standard form of a quadratic equation?",
+    "options": {
+      "option1": "y = ax^2 + bx + c",
+      "option2": "ax^2 + bx + c = 0",
+      "option3": "y = mx + b",
+      "option4": "x = -b ± √(b^2 - 4ac) / 2a"
+    },
+    "correctOption": 1,
+    "answerDescription": "The standard form of a quadratic equation is ax^2 + bx + c = 0"
+  },
+  {
+    "description": "What is the discriminant of a quadratic equation used for?",
+    "options": {
+      "option1": "To find the vertex",
+      "option2": "To determine the number of real solutions",
+      "option3": "To simplify radicals",
+      "option4": "To factor the equation"
+    },
+    "correctOption": 2,
+    "answerDescription": "The discriminant is used to determine the number of real solutions a quadratic equation has."
+  },
+  {
+    "description": "What is the formula to find the roots of a quadratic equation?",
+    "options": {
+      "option1": "y = mx + b",
+      "option2": "x = -b ± √(b^2 - 4ac) / 2a",
+      "option3": "y = ax^2 + bx + c",
+      "option4": "x = -b / 2a"
+    },
+    "correctOption": 2,
+    "answerDescription": "The formula to find the roots of a quadratic equation is x = -b ± √(b^2 - 4ac) / 2a"
+  },
+  {
+    "description": "What does the vertex of a quadratic equation represent?",
+    "options": {
+      "option1": "The x-intercept",
+      "option2": "The maximum or minimum point",
+      "option3": "The y-intercept",
+      "option4": "The slope of the line"
+    },
+    "correctOption": 2,
+    "answerDescription": "The vertex of a quadratic equation represents the maximum or minimum point on the graph."
+  },
+  {
+    "description": "What is the sum of the roots of a quadratic equation?",
+    "options": {
+      "option1": "0",
+      "option2": "b/a",
+      "option3": "-b/a",
+      "option4": "1"
+    },
+    "correctOption": 3,
+    "answerDescription": "The sum of the roots of a quadratic equation is -b/a."
+  }
+]
+
+[ {
+  "description" : "What is the formula to find the roots of a quadratic equation?",
+  "options" : {
+    "option1" : "y = mx + c",
+    "option2" : "x = (-b ± √(b^2 - 4ac)) / 2a",
+    "option3" : "y = ax^2 + bx + c",
+    "option4" : "x = (-b ± √(b^2 + 4ac)) / 2a"
+  },
+  "correctOption" : 2,
+  "answerDescription" : "The formula to find the roots of a quadratic equation is known as the quadratic formula."
+}, {
+  "description" : "What is the discriminant used for in quadratic equations?",
+  "options" : {
+    "option1" : "To find the sum of roots",
+    "option2" : "To determine the nature of roots",
+    "option3" : "To factorize the equation",
+    "option4" : "To find the vertex of the parabola"
+  },
+  "correctOption" : 2,
+  "answerDescription" : "The discriminant helps determine whether the roots of a quadratic equation are real, imaginary, or equal."
+}, {
+  "description" : "Which of the following is a form of a quadratic equation?",
+  "options" : {
+    "option1" : "y = -3x + 7",
+    "option2" : "x = 4",
+    "option3" : "y = 2x^2 + 5x - 3",
+    "option4" : "y = 1/x"
+  },
+  "correctOption" : 3,
+  "answerDescription" : "The equation y = 2x^2 + 5x - 3 is a quadratic equation in standard form."
+}, {
+  "description" : "What is the number of solutions for a quadratic equation with a discriminant of 0?",
+  "options" : {
+    "option1" : "0",
+    "option2" : "1",
+    "option3" : "2",
+    "option4" : "3"
+  },
+  "correctOption" : 2,
+  "answerDescription" : "If the discriminant of a quadratic equation is 0, it has one real root."
+}, {
+  "description" : "What is the vertex form of a quadratic equation?",
+  "options" : {
+    "option1" : "y = a(x - h)^2 + k",
+    "option2" : "y = mx + c",
+    "option3" : "y = ax^2 + bx + c",
+    "option4" : "x = (-b ± √(b^2 - 4ac)) / 2a"
+  },
+  "correctOption" : 1,
+  "answerDescription" : "The vertex form of a quadratic equation provides the vertex of the parabola at point (h, k)."
+} ]
+
+
+{
+  "account_id": "acc_BFQ7uQEaa7j2z7",
+  "contains": [
+    "payment"
+  ],
+  "created_at": 1691735748,
+  "entity": "event",
+  "event": "payment.failed",
+  "payload": {
+    "payment": {
+      "entity": {
+        "acquirer_data": {
+          "auth_code": "828553",
+          "rrn": "322206890934"
+        },
+        "amount": 100,
+        "amount_refunded": 0,
+        "amount_transferred": 0,
+        "bank": null,
+        "captured": true,
+        "card": {
+          "emi": false,
+          "entity": "card",
+          "id": "card_DESp9fNnu0RoNc",
+          "iin": "999999",
+          "international": false,
+          "issuer": null,
+          "last4": "0153",
+          "name": "<name>",
+          "network": "Visa",
+          "sub_type": "business",
+          "type": "debit"
+        },
+        "card_id": "card_DESp9fNnu0RoNc",
+        "contact": "+919000090000",
+        "created_at": 1567674797,
+        "currency": "<currency>",
+        "description": null,
+        "email": "<email>",
+        "entity": "payment",
+        "error_code": "",
+        "error_description": "",
+        "error_reason": null,
+        "error_source": null,
+        "error_step": null,
+        "fee": null,
+        "id": "pay_DESp9bgForNoUd",
+        "international": false,
+        "invoice_id": null,
+        "method": "card",
+        "notes": [],
+        "order_id": "order_DESoU0U4ikYA19",
+        "refund_status": null,
+        "status": "failed",
+        "tax": null,
+        "token_id": "token_MOfFlFTC1CBDOi",
+        "vpa": null,
+        "wallet": null
+      }
+    }
+  }
+}

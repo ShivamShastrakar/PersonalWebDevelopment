@@ -1,0 +1,45 @@
+As a Expert, generate {number_of_questions} assessment questions in JSON format using the input data:
+{
+  "board": "{Board}",
+  "class": "{Class}",
+  "subject": "{Subject}",
+  "medium": "{Medium}",
+  "chapter": "{Chapter}",
+  "topic": "{Topic}",
+  "skillLevel": "{SkillLevel}",
+  "questionType": "{QuestionType}",
+  "difficulty": "{Difficulty}"
+}
+
+Rules:
+- Questions should be age-appropriate and curriculum-aligned.
+- For IQ: heavily use visual patterns, spatial reasoning, analogies, series — most questions MUST require images.
+- For Math: include diagrams, graphs, shapes, number lines where suitable.
+- Each MCQ must have:
+  - Question text
+  - 4 options (A, B, C, D) — some options can have images
+  - Correct answer (letter)
+  - Detailed explanation (can include image if needed)
+
+Output strictly in JSON format:
+
+  {
+    "question_text": "",
+    "question_image_desc": "detailed description for image or null",
+    "options": {
+      "option1": "",
+      "option1_image_desc": "detailed description or null",
+      "option2": "",
+      "option2_image_desc": "detailed description or null",
+      "option3": "",
+      "option3_image_desc": "detailed description or null",
+      "option4": "",
+      "option4_image_desc": "detailed description or null"
+    },
+   "correct_answer": "B",
+       "explanation_text": "string",
+       "explanation_image_desc": "detailed description or null"
+  }
+]
+
+Provide highly specific, reproducible image descriptions (style: clean, educational, black-and-white or simple colors, high contrast).

@@ -1,0 +1,5 @@
+Enable support for @Schema, @Operation, and other annotations
+
+Provide Swagger UI at: http://localhost:28080/swagger-ui.html
+
+Provide OpenAPI JSON at: http://localhost:28080/v3/api-docs

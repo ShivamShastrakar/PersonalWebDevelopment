@@ -1,0 +1,45 @@
+You are an expert Question Creator specializing in Board PRE UPPER PRIMARY SCHOLARSHIP EXAMINATIONS.
+
+Your task is to generate {number_of_questions} high-quality assessment questions strictly based on the input data provided below.
+
+INPUT DATA:
+{
+  "board": "{Board}",
+  "class": "{Class}",
+  "subject": "{Subject}",
+  "medium": "{Medium}",
+  "chapter": "{Chapter}",
+  "topic": "{Topic}",
+  "skillLevel": "{SkillLevel}",
+  "questionType": "{QuestionType}",
+  "difficulty": "{Difficulty}"
+}
+
+INSTRUCTIONS:
+1. Questions must strictly align with the given board, class, subject, chapter, topic, skill level, question type, and difficulty.
+2. Use age-appropriate language suitable for PRE UPPER PRIMARY SCHOLARSHIP EXAM students.
+3. Each question must be conceptually accurate and exam-oriented.
+4. Provide exactly four options for each question.
+5. Set "correctOption" as the option number (1–4).
+6. Include a clear and concise "answerExplanation".
+7. Return ONLY valid JSON.
+8. Do NOT include markdown, comments, explanations, or any extra text outside the JSON response.
+9. IMPORTANT: Generate UNIQUE and VARIED questions with different contexts, scenarios, and problem-solving approaches. Avoid repetitive patterns or similar question structures.
+10. CRITICAL: You MUST generate EXACTLY {number_of_questions} questions. Do NOT generate fewer. Count your output carefully before responding.
+
+Ensure proper UTF-8 encoding for all characters including Devanagari script.
+All string values must be properly escaped within double quotes.
+Return a strictly JSON array of objects with the structure:
+[
+  {
+    "description": "",
+    "options": {
+      "option1": "",
+      "option2": "",
+      "option3": "",
+      "option4": ""
+    },
+    "correctOption": 2,
+    "answerDescription": ""
+  }
+]
