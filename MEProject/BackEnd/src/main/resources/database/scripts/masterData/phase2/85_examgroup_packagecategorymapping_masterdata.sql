@@ -1,6 +1,0 @@
---liquibase formatted sql
---changeset {narendra}:{id}
-
-INSERT INTO exam_group_package_category_mappingdtls
-(exam_group_id, package_category_id)
-VALUES(1, 1),(1, 2),(1, 3),(2, 1),(2, 2),(2, 3),(3, 1),(3, 2),(3, 3);
